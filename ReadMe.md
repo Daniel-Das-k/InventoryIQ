@@ -29,8 +29,24 @@ To run InventoryIQ locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Daniel-Das-k/InventoryIQ.git
-2. pip install -r requirements.txt
-3. cd InventoryIQ
-4.python manage.py migrate
-5.python manage.py createsuperuser
-6.python manage.py runserver
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+3. Navigate to the project directory:
+   ```bash
+   cd InventoryIQ
+
+4. Apply database migrations:
+   ```bash
+   python manage.py migrate
+
+5. Create a superuser (admin account):
+   ```bash
+   python manage.py createsuperuser
+
+6. Run the application:
+   ```bash
+   python manage.py runserver
+
