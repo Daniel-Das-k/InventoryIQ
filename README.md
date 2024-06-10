@@ -26,27 +26,32 @@ InventoryIQ is capable of keeping track of incoming and outgoing stock with a dy
 
 To run InventoryIQ locally, follow these steps:
 
-1. Clone the repository:
+1. Set Up conda Environment:
+   ```bash
+   conda create -n myenv python=3.11
+   conda activate myenv
+   
+2. Clone the repository:
    ```bash
    git clone https://github.com/Daniel-Das-k/InventoryIQ.git
    
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    
-3. Navigate to the project directory:
+4. Navigate to the project directory:
    ```bash
    cd InventoryIQ
 
-4. Apply database migrations:
+5. Apply database migrations:
    ```bash
    python manage.py migrate
 
-5. Create a superuser (admin account):
+6. Create a superuser (admin account):
    ```bash
    python manage.py createsuperuser
 
-6. Run the application:
+7. Run the application:
    ```bash
    python manage.py runserver
 
