@@ -16,12 +16,6 @@ InventoryIQ is capable of keeping track of incoming and outgoing stock with a dy
 - Bill is dynamically rendered and can be printed
 - Separate profiles are maintained for suppliers
 
-## Developers
-
-- Daniel Das K
-- Fazil S
-- Gowthaman J
-
 ## How to Run
 
 To run InventoryIQ locally, follow these steps:
